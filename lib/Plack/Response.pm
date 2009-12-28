@@ -235,6 +235,10 @@ response. The keys of the hash are the cookies' names, and their
 corresponding values are hash reference used to construct a
 CGI::Simple::Cookie object.
 
+=item finalize
+
+Returns PSGI representation of the response object.
+
 =back
 
 =head1 AUTHOR
